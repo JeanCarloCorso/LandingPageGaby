@@ -18,3 +18,8 @@ header h1 {
     text-transform: uppercase;
     font-weight: bold;
 }
+
+header .foto {
+    width: 80%;
+    height: auto;
+}

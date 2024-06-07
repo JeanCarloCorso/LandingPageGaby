@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page da Gabrielly</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/header.css">
+
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid d-flex flex-column align-items-center">
+        <div class="w-100 d-flex justify-content-between align-items-center">
+            <div class="d-flex justify-content-center w-100">
+                <a class="navbar-brand mx-auto" href="#">
+                    <img src="img/logo.png" alt="Logo" width="60" height="60">
+                    <span class="navbar-text">Gabrielly Corso<br>Psicóloga</span>
+                </a>
+            </div>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse w-100" id="navbarResponsive">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Meus Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Áreas de Atuação</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre Mim</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contato</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Perguntas Frequentes</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Header -->
+<header class="jumbotron text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <h1 class="nomeG">GABRIELLY CORSO</h1>
+                <b>
+                <p>Psicóloga Clínica, atendimento individual, adulto adolescente e infantil. CRP 12/26702</p>
+                <P>Olá, seja bem-vindo (a)!</P>
+                </b>
+                <P>Eu sou a <b>Gabrielly Corso</b>, formada em Psicologia pela Universidade Alto Vale do Rio do Peixe UNIARP. 
+                    Trabalho como psicóloga clinica de forma Online e Presencial através da abordagem Terapia Cognitivo 
+                    Comportamental.</P>
+            </div>
+        <div class="col-6">
+            <img src="img/foto-gaby.png" class="card-img-top" alt="Projeto 1">
+        </div>
+        </div>
+    </div>
+</header>
+
+<!-- About Section -->
+<section id="about" class="py-5">
+    <div class="container">
+        <h2 class="text-center">Sobre Mim</h2>
+        <p class="text-center">Olá! Eu sou a Gabrielly, uma profissional apaixonada por [área de atuação]. Aqui você poderá conhecer meus principais projetos e entrar em contato comigo.</p>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center">Projetos</h2>
+        <div class="row">
+            <!-- Project 1 -->
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Projeto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Projeto 1</h5>
+                        <p class="card-text">Descrição breve do Projeto 1.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Projeto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Projeto 2</h5>
+                        <p class="card-text">Descrição breve do Projeto 2.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 3 -->
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Projeto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Projeto 3</h5>
+                        <p class="card-text">Descrição breve do Projeto 3.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5">
+    <div class="container">
+        <h2 class="text-center">Contato</h2>
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" class="form-control" id="name" placeholder="Seu nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Seu email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea class="form-control" id="message" rows="5" placeholder="Sua mensagem"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-4 bg-light">
+    <div class="container text-center">
+        <p class="m-0">© 2024 Gabrielly. Todos os direitos reservados.</p>
+        <div>
+            <a href="#" class="btn btn-outline-secondary btn-sm">LinkedIn</a>
+            <a href="#" class="btn btn-outline-secondary btn-sm">GitHub</a>
+            <a href="#" class="btn btn-outline-secondary btn-sm">Twitter</a>
+        </div>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

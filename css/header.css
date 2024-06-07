@@ -1,0 +1,20 @@
+header.jumbotron {
+    background-image: url('../img/fundo-header.png') !important;
+    background-size: cover; 
+    background-position: center;
+    margin-top: -40px;
+}
+
+header p {
+    font-family: 'Arimo';
+    font-size: 20px;
+    color: #273C76;
+}
+
+header h1 {
+    font-family: 'Trocchi';
+    color: #35A054;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+}

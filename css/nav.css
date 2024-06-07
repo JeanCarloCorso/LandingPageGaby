@@ -1,0 +1,31 @@
+.navbar {
+    background-color: #242424;
+}
+
+.navbar-brand img {
+    display: block;
+    margin: 0 auto;
+}
+.navbar .navbar-text {
+    text-align: center;
+    color: #B68CBC;
+    margin-top: -10px;
+    font-family: 'Trocchi';
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-size: 20px;
+    font-family: 'Arimo';
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item:first-child .nav-link {
+    color: #8FBEE4 !important;
+}
+
+
+
+
